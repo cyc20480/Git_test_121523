@@ -6,7 +6,8 @@ from PyQt5 import uic
 
 form_class = uic.loadUiType("UI_test001.ui")
 
-class MyWindow(QMainWindow, form_class):
+# class MyWindow(QMainWindow, form_class):
+class MyWindow:
     def __init__(self):
         super().__init__()
 
